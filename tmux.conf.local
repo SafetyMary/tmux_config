@@ -393,6 +393,9 @@ set -g mouse on
 #   really you should export VISUAL or EDITOR environment variable, see manual
 set -g status-keys vi
 set -g mode-keys vi
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+bind-key -T copy-mode-vi C-v send-keys -X rectangle-toggle  # remember to press space after C-v for it to work
+bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -in -selection clipboard"
 
 # replace C-b by C-a instead of using both prefixes
 set -gu prefix2
@@ -410,6 +413,9 @@ bind m run "cut -c3- '#{TMUX_CONF}' | sh -s _toggle_mouse" \; display 'mouse #{?
 # move status line to top
 #set -g status-position top
 
+# My customizations
+# Set fish as default shell/command
+set -g default-command fish
 
 # -- tpm -----------------------------------------------------------------------
 

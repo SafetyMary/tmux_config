@@ -3,7 +3,7 @@
 ## Refresh config
 
 ```bash
-tmux source-file ~/.config/.tmux.conf
+tmux source-file ~/.config/tmux.conf
 ```
 
 ## Compare with upstream/master
