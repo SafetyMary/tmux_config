@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.1
+
+- fix(mouse): Fix mouse mode auto yank
+
 ## v1.1.0
 
 - feat(shell): Set fish as tmux default command on any new window
