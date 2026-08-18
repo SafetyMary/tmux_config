@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.2
+
+- chore(sync): sync with upstream
+
 ## v1.1.1
 
 - fix(mouse): Fix mouse mode auto yank
