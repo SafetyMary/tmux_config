@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.4
+
+- fix(extended-keys): Disable extended-keys due to pasting problem
+
 ## v1.1.3
 
 - feat(raw): Also tracks raw tmux config

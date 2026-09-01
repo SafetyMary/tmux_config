@@ -418,6 +418,10 @@ bind m run "cut -c3- '#{TMUX_CONF}' | sh -s _toggle_mouse" \; display 'mouse #{?
 set -g default-command fish
 # Disable auto copy after mouse highlight
 unbind-key -T copy-mode-vi MouseDragEnd1Pane #!important
+# Fixes pasting issue in neovim
+# https://github.com/gpakosz/.tmux/issues/776
+# As a result, any Ctrl+Shift+letter will be indistinguishable from and thus fall back to Ctrl+letter inside tmux
+set -g extended-keys off #!important
 
 # -- tpm -----------------------------------------------------------------------
 
