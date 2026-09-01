@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.3
+
+- feat(raw): Also tracks raw tmux config
+
 ## v1.1.2
 
 - chore(sync): sync with upstream
