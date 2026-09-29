@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.5
+
+- feat(window): Renumber windows when one is closed, (raw config only)
+
 ## v1.1.4
 
 - fix(extended-keys): Disable extended-keys due to pasting problem
