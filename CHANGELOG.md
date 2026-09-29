@@ -1,8 +1,8 @@
 # CHANGELOG
 
-## WIP
+## v1.1.5
 
-- feat(window): Renumber windows when one is closed
+- feat(window): Renumber windows when one is closed, (raw config only)
 
 ## v1.1.4
 
